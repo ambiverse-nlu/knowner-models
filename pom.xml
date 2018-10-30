@@ -4,7 +4,7 @@
 
     <groupId>de.mpg.mpi-inf.ambiversenlu</groupId>
     <artifactId>knowner-models</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <name>AmbiverseNLU KnowNER Models</name>
     <description>KnowNER models used to perform Entity Recognition (NER) for the AmbiverseNLU Entity Linking project.</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:git://github.com/ambiverse-nlu/knowner-models.git</connection>
         <developerConnection>scm:git:git@github.com:ambiverse-nlu/knowner-models.git</developerConnection>
         <url>https://github.com/ambiverse-nlu/knowner-models</url>
-        <tag>knowner-models-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
@@ -23,9 +23,9 @@
     </issueManagement>
 
     <properties>
-        <version.nexus-staging-maven-plugin>1.6.7</version.nexus-staging-maven-plugin>
+        <version.nexus-staging-maven-plugin>1.6.8</version.nexus-staging-maven-plugin>
         <version.maven-release-plugin>2.5.3</version.maven-release-plugin>
-        <version.maven-scm-provider-gitexe>1.9.5</version.maven-scm-provider-gitexe>
+        <version.maven-scm-provider-gitexe>1.11.1</version.maven-scm-provider-gitexe>
         <version.maven-deploy-plugin>2.8.2</version.maven-deploy-plugin>
         <version.maven-gpg-plugin>1.6</version.maven-gpg-plugin>
     </properties>

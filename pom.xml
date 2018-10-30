@@ -6,7 +6,7 @@
 
     <groupId>de.mpg.mpi-inf.ambiversenlu</groupId>
     <artifactId>konwner-models</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <name>AmbiverseNLU KnowNER Models</name>
     <description>KnowNER models used to perform Entity Recognition (NER) for the AmbiverseNLU Entity Linking project.</description>
@@ -87,7 +87,7 @@
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
 

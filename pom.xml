@@ -8,8 +8,8 @@
     <artifactId>konwner-models</artifactId>
     <version>1.0</version>
 
-    <name>KnowNER Models</name>
-    <description>KnowNER models used to perform Entity recognition from the Ambiverse NLU Entity Linking prioject.</description>
+    <name>AmbiverseNLU KnowNER Models</name>
+    <description>KnowNER models used to perform Entity Recognition (NER) for the AmbiverseNLU Entity Linking project.</description>
     <url>https://github.com/ambiverse-nlu/knowner-models</url>
 
     <scm>

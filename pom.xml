@@ -4,7 +4,7 @@
 
     <groupId>de.mpg.mpi-inf.ambiversenlu</groupId>
     <artifactId>knowner-models</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>AmbiverseNLU KnowNER Models</name>
     <description>KnowNER models used to perform Entity Recognition (NER) for the AmbiverseNLU Entity Linking project.</description>
@@ -17,6 +17,15 @@
         <tag>HEAD</tag>
     </scm>
 
+    <developers>
+        <developer>
+            <name>AmbiverseNLU</name>
+            <email>ambiversenlu-admin@mpi-inf.mpg.de</email>
+            <organization>MPI</organization>
+            <organizationUrl>https://www.mpi-inf.mpg.de</organizationUrl>
+            <timezone>GMT+01:00</timezone>
+        </developer>
+    </developers>
 
     <issueManagement>
         <system>Github</system>

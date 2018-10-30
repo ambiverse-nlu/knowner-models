@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.mpg.mpi-inf.ambiversenlu</groupId>
-    <artifactId>konwner-models</artifactId>
+    <artifactId>knowner-models</artifactId>
     <version>1.1-SNAPSHOT</version>
 
     <name>AmbiverseNLU KnowNER Models</name>

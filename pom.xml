@@ -4,7 +4,7 @@
 
     <groupId>de.mpg.mpi-inf.ambiversenlu</groupId>
     <artifactId>knowner-models</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>AmbiverseNLU KnowNER Models</name>
     <description>KnowNER models used to perform Entity Recognition (NER) for the AmbiverseNLU Entity Linking project.</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:git://github.com/ambiverse-nlu/knowner-models.git</connection>
         <developerConnection>scm:git:git@github.com:ambiverse-nlu/knowner-models.git</developerConnection>
         <url>https://github.com/ambiverse-nlu/knowner-models</url>
-        <tag>HEAD</tag>
+        <tag>knowner-models-1.0</tag>
     </scm>
 
     <issueManagement>

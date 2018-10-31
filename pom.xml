@@ -58,7 +58,7 @@
                 <executions>
                     <execution>
                         <id>attach-sources</id>
-                        <goals>
+                        <goals>maven-gpg-plugin
                             <goal>jar</goal>
                         </goals>
                     </execution>
@@ -121,6 +121,20 @@
                         <version>${version.maven-scm-provider-gitexe}</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>${version.maven-gpg-plugin}</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

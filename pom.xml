@@ -58,8 +58,8 @@
                 <executions>
                     <execution>
                         <id>attach-sources</id>
-                        <goals>maven-gpg-plugin
-                            <goal>jar</goal>
+                        <goals>
+                            <goal>jar-no-fork</goal>
                         </goals>
                     </execution>
                 </executions>
